@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: antiquewhite;
+    height: 15vh;
+    padding: 1rem;
+}
+
+nav{
+    height: 10vh;
+}
+
+main{
+    min-height: 70vh;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+
+footer{
+    height: 5vh;
+}
+
+#logoWeb{
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+}
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    color: black;
+    display: inline;
+    margin-left: 2rem;
+    vertical-align: top;
+}
+
+nav{
+    background-color: orange;
+    /* min-height: 20px; */
+    padding: 20px;
+    text-align: end;
+}
+a{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* a[href="#"]{
+    background-color: yellow;
+    color: black;
+} */
+
+#here{
+    background-color: greenyellow;
+}
+.imHere{
+    background-color: yellow;
+    color: black;
+}
+
+
+/* section>h3{
+    font-family: sans-serif;
+    color: white;
+    background-color: aqua;
+} */
+
+/* .detailText{
+    color: orange;
+    background-color: blue;
+} */
+
+/* article h3{
+    color: orange;
+    background-color: blue;
+} */
+
+/* h1,h2,h3{
+    border: 5px solid red;
+} */
+
+/* h3.lujoClass{
+    background-color: red;
+} */
+
+#aboutMain{
+    background-color: gray;
+    padding: 20px;
+}
+
+.caja{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+section{
+    width: 380px;
+    height: 200px;
+    background-color: orange;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.51);
+}
+
+section:hover{
+    background-color: greenyellow;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.51);
+}
+
+section:active{
+    background-color: red;
+}
+
+section article{
+    height: 80%;
+    background-color: rgba(169, 110, 0, 0.54);
+    border-radius: 1rem;
+}
+
+article img{
+    height: 100%;
+    width: 50%;    
+    object-fit: cover;
+    border-radius: 1rem 0 0 1rem;
+}
+
+article div{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5rem;
+}
